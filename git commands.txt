@@ -1,0 +1,26 @@
+cloning online repository to local server/pc: git clone <repository link>
+	then cd into that folder
+
+to copy files to local pc: git pull
+
+check status of repository: git status
+
+to mark commited: git add .
+	check using command: git status
+
+to commit: git commit -m "<your message/comment>"
+	check using command: git status
+
+to upload to github repository from local repository: git push
+	check using command: git status
+
+
+///////////////////
+for uploading to github from local folder
+
+     git init
+     git add <folder1> <folder2> <etc.>
+     git commit -m "Your message about the commit"
+     git remote add origin https://github.com/yourUsername/yourRepository.git
+     git push -u origin master
+     git push origin master  
