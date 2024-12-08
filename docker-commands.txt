@@ -1,0 +1,19 @@
+docker build -t username/imagename:latest -f Dockerfile .
+
+docker login -u "username" -p "password" docker.io
+
+docker push username/imagename:latest
+
+docker images
+
+docker ps
+
+docker run -d -p 3000:3000 username/imagename
+
+docker stop container_id
+
+docker-compose up --build
+
+docker image pull imagename
+
+docker container run container_id
