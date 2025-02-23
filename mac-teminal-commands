@@ -1,0 +1,35 @@
+install homebrew package manager : /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+search apps in homebrew : brew search <app_name>
+
+install app using homebrew : brew install <app_name>
+
+check folder size from terminal : du -sh <folder_path>
+
+get IP address : ipconfig getifaddr en0
+
+open an app : open -a <app_name>.app
+
+get current working directory : pwd
+
+list all items in current directory : ls
+
+list all items in current directory, including hidden files: ls -a
+
+to create new directory : mkdir <dir_name>
+
+delete a directory : rmdir <dir_name>
+
+copy a file to a specified directory : cp <file_name> <dir_name>
+
+copy a file to the current directory and rename : cp <file_name> <newfile_name>
+
+delete a file : rm <file_name>
+
+move or rename a file to a new location or name : mv <file_name> <newfilename_name>
+
+see current environment variables : printenv or env
+
+create a conda environment : conda create -n <env_name> python=x.x
+
+remove conda environment : conda remove -n <env_name> --all
